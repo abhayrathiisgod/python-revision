@@ -72,3 +72,9 @@ x = Person("John", "Doe")
 x.printname()
 
 
+class animal:
+    def __init__(self,name,age):
+      self.name = name
+      self.age=age
+p1 = animal('jhon',87)
+print(p1.name)
